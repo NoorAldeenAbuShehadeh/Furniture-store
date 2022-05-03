@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:burlywood;
+}
+
+
+.parent{
+    width: 900px;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -450px;
+    border-radius: 10px;
+
+}
+.parent .welcome{
+    width: 50%;
+    height: 100%;
+    background-image: url("image/im1.png");
+    background-size: 700px;
+    float: right;
+}
+
+.parent .welcome .welcome-content{
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    margin: 20px auto 0px auto;
+    text-transform: capitalize;
+}
+.parent .welcome .sign_up{
+    width: 300px;
+    text-align: center;
+    color:red;
+    font-size: 20px;
+    margin: 320px auto 0px auto;
+    text-transform: capitalize;
+}
+.parent .welcome .welcome-content p{
+    margin: 20px 0px;
+}
+.parent .welcome .welcome-content button {
+    padding: 7px 30px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.parent .login{
+    width: 50%;
+    height: 500px;
+}
+.parent .login .login-content{
+    overflow: hidden;
+    padding:0px 40px;
+    margin-top: 100px;
+}
+.parent .login form {
+    margin: 30px 0px;
+}
+.parent .login form input{
+    padding: 10px 5px;
+    width:356px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+.parent .login form input[type="submit"]{
+    margin-top: 20px;
+    width: 370px;
+}
+.parent .login form h4{
+    margin: 5px 0px;
+
+}
+
+.parent .login .title-social{
+
+}
+.parent .login .title-social h3{
+    float: left;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.parent .login .title-social ul {
+    float: right;
+    list-style: none;
+}
+.parent .login .title-social ul li {
+    float: left;
+    font-size: 28px;
+}
+.parent .login .title-social ul li i {
+    color: lightgray;
+}
+.parent .login .title-social ul li i:hover{
+    color: darkorange;
+}
+.parent .login .title-social .fa-facebook-square{
+    margin-right: 10px;
+}
+
